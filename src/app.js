@@ -3,7 +3,7 @@ const path = require("path");
 const app = express();
 app.use(express.static("public"));
 
-// Test code below
+// Test code below!
 app.get("/test", (_req, res) => {
   res.status(200).send("Hello world");
 });
