@@ -5,7 +5,7 @@ app.use(express.static("public"));
 
 // Test code below!
 app.get("/test", (_req, res) => {
-  res.status(200).send("Hello xworld");
+  res.status(200).send("Hello world!");
 });
 
 app.get("/", (req, res) => {
